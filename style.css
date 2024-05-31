@@ -1,0 +1,162 @@
+*{
+    text-decoration: none;
+    background-color: black;
+}
+.lists{
+    font-weight: bold;
+}
+.navbar{
+    background-color: black;
+}
+.navbar li {
+       padding-left: 18px;
+}
+.navbar li a{
+    color: white;
+}
+.navbar li a:hover{
+    color: rgb(226, 34, 201);
+}
+.lists:hover{
+    color: rgb(226, 34, 201);
+}
+form .connectbtn{
+    background-color: rgb(226, 34, 201);
+    border-radius: 20px;
+    border-color: rgb(226, 34, 201);
+    height: 50px;
+    width: 220px;
+    padding-bottom: 10px;
+    color: white;
+}
+.connectbtn:hover{
+    background-color: rgb(172, 38, 154);
+    border-color: rgb(172, 38, 154) ;
+    color: white;
+}
+/* form .connectbtn p{
+    background-color: rgb(226, 34, 201);
+} */
+.lists li{
+    color: white;
+}
+.top{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 120px;
+    background-color: black;
+}
+.top img{
+    border-radius: 20px;
+   
+}
+
+.firsttext h1{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+
+}
+
+.firsttext h1 b{
+    color: rgb(226, 34, 201);
+}
+.firsttext p{
+    color: white;
+}
+.top button{
+    color: rgb(172, 38, 154);
+    background-color: rgb(14, 13, 13);
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid rgb(226, 34, 201);
+}
+.top button:hover{
+    background-color: rgb(226, 34, 201);
+    color: white;
+    font-weight: bold;
+}
+.carousel-inner img{
+    width: 800px;
+    height: 300px;
+    background-color: black;
+   
+}
+.carousel-inner{
+    background-color: black;
+}
+.cartext h2{
+    text-align: center;
+    color: white;
+}
+.cartext p{
+   text-align: center;
+    background-color: black;
+    color: white;
+ font-weight: bold;
+}
+.carousel{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 40px;
+    background-color: black;
+}
+.ifra iframe{
+    padding-left: 280px;
+    background-color: black;
+
+}
+.pictext1 {
+    gap: 20px;
+    padding-left: 130px;
+    background-color: black
+ 
+}
+.pictext1 img{
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 30px;
+}
+.pictext2 {
+    gap: 20px;
+    padding-left: 130px;
+    padding-top: 30px;
+    background-color: black
+}
+.pictext2 img{
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 30px;
+}
+.pictext{
+    position: absolute;
+    
+
+}
+footer{
+    background-color: grey;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+.fter h6{
+    color: white;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.fter h6 strong{
+    color: rgb(226, 34, 201);
+}
+.fter p{
+    color: white;
+   text-align: center;
+   font-size: small;
+}
